@@ -1,3 +1,27 @@
-p {
-    background-color: red;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
+
+body, html, #root {
+    height: 100%;
+    width: 100%;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.header, .main, .footer {
+    padding: 20px;
+}
+
+.main {
+    flex: 1;
+}
+
